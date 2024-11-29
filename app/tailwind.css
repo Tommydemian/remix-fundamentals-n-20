@@ -10,3 +10,15 @@ body {
     color-scheme: dark;
   }
 }
+
+@layer components {
+  .container {
+    width: min(100% - 1.5rem, 75rem);
+    margin-inline: auto;
+  }
+
+  .container--wide {
+    width: min(100% - 1.5rem, 90rem);
+    margin-inline: auto;
+  }
+}
